@@ -1,6 +1,10 @@
 {
   "name": "test-release-stuff",
   "version": "0.0.0-development",
+  "main": "dist/test-release.cjs.js",
+  "module": "dist/test-release.esm.js",
+  "browser": "dist/test-release.umd.js",
+  "iife": "dist/test-release.iife.js",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.15.4",
