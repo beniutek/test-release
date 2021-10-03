@@ -28,6 +28,6 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "jest",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --debug"
   }
 }
