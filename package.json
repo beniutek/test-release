@@ -4,7 +4,6 @@
   "main": "dist/umd/test-release.js",
   "module": "dist/esm/test-release.js",
   "browser": "dist/iife/test-release.js",
-  "type": "module",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.15.4",
