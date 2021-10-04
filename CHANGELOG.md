@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/beniutek/test-release/compare/v1.1.1...v1.1.2) (2021-10-04)
+
+
+### Bug Fixes
+
+* remove dist from gitignore ([8b3b172](https://github.com/beniutek/test-release/commit/8b3b1727a14c0ccaadb5ea38e56d48dccfcf6d86))
+
 ## [1.1.1](https://github.com/beniutek/test-release/compare/v1.1.0...v1.1.1) (2021-10-04)
 
 
