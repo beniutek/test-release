@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/beniutek/test-release/compare/v1.1.0...v1.1.1) (2021-10-04)
+
+
+### Bug Fixes
+
+* change build options ([79ebb1c](https://github.com/beniutek/test-release/commit/79ebb1cf3ba5b587b48b28bc0f5d6f29792d6162))
+
 # [1.1.0](https://github.com/beniutek/test-release/compare/v1.0.0...v1.1.0) (2021-10-03)
 
 
