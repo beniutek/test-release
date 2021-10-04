@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/beniutek/test-release/compare/v1.1.2...v1.1.3) (2021-10-04)
+
+
+### Bug Fixes
+
+* generate folders for dist ([b5aa10e](https://github.com/beniutek/test-release/commit/b5aa10e6f70a9788f41c12951a0a03052c5bf705))
+
 ## [1.1.2](https://github.com/beniutek/test-release/compare/v1.1.1...v1.1.2) (2021-10-04)
 
 
