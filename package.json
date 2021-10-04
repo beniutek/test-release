@@ -1,9 +1,10 @@
 {
   "name": "test-release-stuff",
   "version": "0.0.0-development",
-  "main": "dist/test-release.umd.js",
-  "module": "dist/test-release.esm.js",
-  "browser": "dist/test-release.iife.js",
+  "main": "dist/umd/test-release.js",
+  "module": "dist/esm/test-release.js",
+  "browser": "dist/iife/test-release.js",
+  "type": "module",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.15.4",

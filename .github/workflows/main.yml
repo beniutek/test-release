@@ -27,5 +27,4 @@ jobs:
 
       - name: Release
         run: |
-          echo $NPM_TOKEN
           yarn semantic-release

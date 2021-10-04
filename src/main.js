@@ -4,4 +4,4 @@ const sum = (a, b) => {
   return 0;
 }
 
-module.exports = sum;
+export default sum;
