@@ -7,7 +7,6 @@ on:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
   release:
@@ -25,6 +24,10 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile --non-interactive --silent
 
+      - name: Build
+        run: yarn build
       - name: Release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           yarn semantic-release
