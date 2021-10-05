@@ -1,5 +1,7 @@
 {
   "entryPoints": ["src/main.ts"],
   "out": "docs",
-  "githubPages": true
+  "githubPages": false,
+  "readme": "README.md",
+  "sort": "source-order"
 }
