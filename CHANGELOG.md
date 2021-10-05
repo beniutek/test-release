@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/beniutek/test-release/compare/v1.1.4...v1.2.0) (2021-10-05)
+
+
+### Features
+
+* add multiply function ([0ff2688](https://github.com/beniutek/test-release/commit/0ff268841480c0f76046577b50f7cbb16e586b84))
+
 ## [1.1.4](https://github.com/beniutek/test-release/compare/v1.1.3...v1.1.4) (2021-10-05)
 
 ## [1.1.3](https://github.com/beniutek/test-release/compare/v1.1.2...v1.1.3) (2021-10-04)
