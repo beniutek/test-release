@@ -1,5 +1,5 @@
 {
   "entryPoints": ["src/main.ts"],
   "out": "docs",
-  "githubPages": false
+  "githubPages": true
 }
