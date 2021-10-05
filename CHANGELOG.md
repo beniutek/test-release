@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/beniutek/test-release/compare/v1.2.0...v1.2.1) (2021-10-05)
+
+
+### Bug Fixes
+
+* remove dist ([20ce9e2](https://github.com/beniutek/test-release/commit/20ce9e264f766a5f61d28c19a9c994f39a7da841))
+
 # [1.2.0](https://github.com/beniutek/test-release/compare/v1.1.4...v1.2.0) (2021-10-05)
 
 
