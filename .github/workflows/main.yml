@@ -23,7 +23,8 @@ jobs:
 
       - name: Install dependencies
         run: yarn --frozen-lockfile --non-interactive --silent
-
+      - name: Generate docs
+        run: yarn docs
       - name: Build
         run: yarn build
       - name: Release
