@@ -34,7 +34,5 @@ const multiply = (a: number, b: number): number => {
   return 0;
 }
 
-export default {
-  sum,
-  multiply
-};
+const operations = { sum, multiply };
+export default operations;

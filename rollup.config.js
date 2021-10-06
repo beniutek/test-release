@@ -9,6 +9,8 @@ const extensions = [
   '.js', '.ts',
 ];
 
+const mainFields = ['main', 'module', 'browser'];
+
 const babelConfig = {
   babelHelpers: 'bundled',
   include: ['src/**/*'],
@@ -16,7 +18,7 @@ const babelConfig = {
 }
 
 export default {
-  input: './src/main.js',
+  input: './src/main.ts',
 
   // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
   // https://rollupjs.org/guide/en/#external
@@ -24,7 +26,7 @@ export default {
 
   plugins: [
     // Allows node_modules resolution
-    resolve({ extensions }),
+    resolve({ extensions, mainFields }),
 
     // Allow bundling cjs modules. Rollup doesn't understand cjs
     commonjs(),
@@ -34,8 +36,8 @@ export default {
   ],
 
   output: [
-    { file: pkg.main, format: 'umd', name },
+    { file: pkg.main, format: 'cjs', name },
     { file: pkg.module, format: 'es' },
-    { file: pkg.browser, format: 'iife', name },
+    { file: pkg.browser, format: 'umd', name },
   ],
 };
