@@ -1,3 +1,5 @@
+## [1.2.2](https://github.com/beniutek/test-release/compare/v1.2.1...v1.2.2) (2021-10-06)
+
 ## [1.2.1](https://github.com/beniutek/test-release/compare/v1.2.0...v1.2.1) (2021-10-05)
 
 
